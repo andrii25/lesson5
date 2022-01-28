@@ -1,0 +1,246 @@
+body {
+    margin: 0;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1200px;
+    height: 100px;
+}
+.box {
+    height: 40px;
+    width: 120px;
+    background: #b6b6b7;
+}
+.box2 {
+    height: 340px;
+    width: 960px;
+    background: #b6b6b7;
+}
+.box3 {
+    height: 160px;
+    width: 225px;
+    background: #b6b6b7;
+}
+.box4 {
+    height: 180px;
+    width: 360px;
+    background: #b6b6b7;
+}
+.box5 {
+    height: 100px;
+    width: 170px;
+    background: #b6b6b7;
+.box10 {
+    height: 100px;
+    width: 170px;
+    background: #b6b6b7;
+}
+}
+.box6 {
+    display: flex;
+    align-items: center;
+    height: 20px;
+    width: 80px;
+    background: #b6b6b7;
+}
+.box7 {
+    height: 40px;
+    width: 960px;
+    background: #b6b6b7;
+}
+.box8 {
+    height: 40px;
+    width: 120px;
+    background: #b6b6b7;
+}
+.page {
+    display: flex;
+    flex-direction: row;
+}
+.page2 {
+    display: flex;
+    flex-direction: row;
+}
+.wrap {
+    box-sizing: border-box;
+    border:10px solid #1e191a;
+    padding: 20px;
+}
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    height: 2020px;
+    width: 180px;
+    gap: 20px;
+    border-top: none;
+    border-right: none;
+}
+.col {
+    display: flex;
+    flex-direction: column;
+}
+.section {
+    border-top: none;
+    height: 390px;
+    width: 1020px;
+}
+.section2 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    border-top: none;
+    height: 210px;
+    width: 1020px;
+}
+.section3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: none;
+    gap: 20px;
+    height: 1270px;
+    width: 800px;
+}
+.section4 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-top: none;
+    border-left: none;
+    height: 1270px;
+    width: 220px;
+}
+.section5 {
+    display: flex;
+    flex-direction: column;
+    border-top: none;
+    align-items: center;
+    height: 150px;
+    width: 1020px;
+}
+.gap {
+    gap: 20px;
+}
+@media  screen and (min-width:600px) and (max-width: 1000px) {
+    body {
+        margin: 0;
+    }
+    .header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 800px;
+        height: 100px;
+    }
+    .box2 {
+        height: 250px;
+        width: 740px;
+        background: #b6b6b7;
+    }
+    .box3 {
+        height: 240px;
+        width: 370px;
+        background: #b6b6b7;
+    }
+    .box4 {
+        height: 180px;
+        width: 360px;
+        background: #b6b6b7;
+    }
+    .box5 {
+        height: 80px;
+        width: 360px;
+        background: #b6b6b7;
+    }
+    .box10 {
+        height: 280px;
+        width: 360px;
+        background: #b6b6b7;
+    }
+    .box6 {
+        display: flex;
+        align-items: center;
+        height: 20px;
+        width: 80px;
+        background: #b6b6b7;
+    }
+    .box7 {
+        height: 40px;
+        width: 740px;
+        background: #b6b6b7;
+    }
+    .box8 {
+        height: 40px;
+        width: 160px;
+        background: #b6b6b7;
+    }
+    .page {
+        display: flex;
+        flex-direction: row;
+    }
+    .page2 {
+        display: flex;
+        flex-direction: column;
+    }
+    .wrap {
+        box-sizing: border-box;
+        border:10px solid #1e191a;
+        padding: 20px;
+    }
+    .sidebar {
+       display: none;
+    }
+    .col {
+        display: flex;
+        flex-direction: column;
+    }
+    .section {
+        border-top: none;
+        height: 300px;
+        width: 800px;
+    }
+    .section2 {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        border-top: none;
+        height: 550px;
+        width: 800px;
+    }
+    .section3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-top: none;
+        gap: 20px;
+        height: 670px;
+        width: 800px;
+    }
+    .section4 {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        border-top: none;
+        height: 330px;
+        width: 800px;
+    }
+    .section5 {
+        display: flex;
+        flex-direction: column;
+        border-top: none;
+        align-items: center;
+        height: 150px;
+        width: 800px;
+    }
+    .gap {
+        gap: 20px;
+
+}
+
+.x {
+display: none}
+}
+
+
